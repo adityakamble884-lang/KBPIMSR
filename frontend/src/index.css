@@ -233,3 +233,40 @@ body {
 .animate-slide-in-right {
   animation: slideInRight 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
+
+/* Responsive Navbar Styling */
+html {
+  overflow-x: hidden;
+}
+
+.btn-nav-glass {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: #ffffff !important;
+  font-weight: 500;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+}
+
+.btn-nav-glass:hover {
+  background: rgba(255, 255, 255, 0.28) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
+.btn-nav-gold {
+  background: linear-gradient(90deg, #fbbf24, #f59e0b) !important;
+  color: #0f172a !important;
+  font-weight: 600;
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+  transition: all 0.2s ease;
+}
+
+.btn-nav-gold:hover {
+  background: linear-gradient(90deg, #f59e0b, #d97706) !important;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
